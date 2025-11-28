@@ -1,0 +1,88 @@
+<html lang="ru"
+style="scroll-behavior:smooth;">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация — VA11-HALL-A</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-menu">
+  <header>
+    <div class="header-top">
+      <h1>VA<span>11</span>-HA<span>LL</span>-A</h1>
+      <nav>
+        <a href="./index.html">Главная</a>
+        <a href="./menu.html">Меню</a>
+        <a href="#footer">Контакты</a>
+        <a href="./register.html">Регистрация</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="form-container">
+    <form onsubmit="event.preventDefault(); window.location='index.html';">
+      <div class="form-div1">
+        <h2>Создай свой профиль</h2>
+        <input type="text" placeholder="Имя пользователя" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit">Зарегистрироваться</button>
+      </div>
+      <div class="form-div2"></div>
+    </form>
+  </main>
+  <footer id="footer">
+    <div class="footer-inner">
+      <!-- Левый:  -->
+      <div class="footer-col footer-brand">
+        <img src="./img/logo/image.jpg" class="footer-logo">
+        <p class="brand-desc">Киберпанк‑бар VA11‑HALL‑A — неон, музыка и авторские коктейли. Приходи вечером — будет жарко.</p>
+      </div>
+      
+      <div class="footer-col footer-links">
+        <div class="links-grid">
+          <div>
+            <h4>Посетителям</h4>
+            <ul>
+              <li><a href="./menu.html">Меню</a></li>
+              <li><a href="./index.html#features-id">О нас</a></li>
+              <li><a href="./index.html#team-id">Команда</a></li>
+            </ul>
+          </div>
+          <div>
+            
+          </div>
+          <div>
+            <h4>Полезно</h4>
+            <ul>
+              <li><a href="#footer">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="phone-block">
+          <div class="phone-number-big">+7 (999) 123‑45‑67</div>
+          <div class="phone-sub">График работы: 20:00 — 06:00</div>
+        </div>
+
+        <div class="footer-messengers">
+          <a href="https://t.me/va11-hall-a">
+            <img src="./img/logo/icons8-paper-plane-48.png">
+          </a>
+          <a href="https://wa.me/79991234567">
+            <img src="./img/logo/icons8-flying-stork-48.png">
+          </a>
+          <a href="viber://chat?number=%2B79991234567" >
+            <img src="./img/logo/icons8-family-48.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p id="footer-title">VA11‑HALL‑A — киберпанк‑бар · ©</p>
+    </div>
+  </footer>
+</body>
+</html>
